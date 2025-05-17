@@ -1,0 +1,45 @@
+body {
+    font: 100%/1.5 system-ui, sans-serif;
+    display: flex;
+    flex-flow: column;
+    max-width: 80em;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1em;
+  }
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+  }
+  
+input[type="range"] {
+    flex: 1;
+    margin-left: 0.5em;
+  }
+  
+#time-display {
+    font-weight: bold;
+  }
+  
+#any-time {
+    font-style: italic;
+    color: #666;
+  }
+
+#time-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align content to the right */
+  gap: 1em;
+  margin-bottom: 1em;
+  width: 100%; /* Ensure it fills the full width */
+}
+
+#time-slider {
+  max-width: 250px;
+}
